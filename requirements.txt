@@ -1,0 +1,7 @@
+# Base dependencies for all tutorials
+torch
+torchvision
+numpy
+pandas
+matplotlib
+jupyterlab
