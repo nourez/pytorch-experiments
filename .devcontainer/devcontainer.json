@@ -4,14 +4,18 @@
         "dockerfile": "../docker/Dockerfile",
         "context": ".."
     },
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "s-toolsai.jupyter",
+                "ms-vscode-remote.remote-containers"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
     },
-    "extensions": [
-        "ms-python.python",
-        "ms-toolsai.jupyter",
-        "ms-vscode-remote.remote-containers"
-    ],
     "forwardPorts": [
         8888
     ],
