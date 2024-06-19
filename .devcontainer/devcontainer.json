@@ -8,8 +8,9 @@
         "vscode": {
             "extensions": [
                 "ms-python.python",
-                "s-toolsai.jupyter",
-                "ms-vscode-remote.remote-containers"
+                "ms-python.vscode-pylance",
+                "ms-python.debugpy",
+                "ms-toolsai.jupyter"
             ],
             "settings": {
                 "terminal.integrated.shell.linux": "/bin/bash"
